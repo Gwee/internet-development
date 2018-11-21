@@ -22,7 +22,7 @@ public class Rental implements Serializable {
     }
 
     public void addBook(Book book){
-        if (book != null) {
+        if (book != null && numOfRentals<=3) {
             bookList.add(book);
             numOfRentals++;
         }
@@ -41,7 +41,7 @@ public class Rental implements Serializable {
     public Book getBookById(String bookId){
         for (Book book: bookList
              ) {
-            if (book.getBookId() == bookId){
+            if (book.getBookId().equals(bookId)){
                 return book;
             }
         }

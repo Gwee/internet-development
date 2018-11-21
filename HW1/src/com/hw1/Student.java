@@ -29,11 +29,11 @@ public class Student implements Serializable {
     }
 
     public void setStudentLate(boolean studentLate) {
-        isStudentLate = studentLate;
+        this.isStudentLate = studentLate;
         if (studentLate){
-            lateRentals++;
+            this.lateRentals++;
         }else {
-            lateRentals--;
+            this.lateRentals--;
         }
 
     }

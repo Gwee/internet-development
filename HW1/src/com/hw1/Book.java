@@ -81,10 +81,7 @@ public class Book implements Serializable {
     public String getBookIsbn() {
         return bookIsbn;
     }
-    public String randmoizeBookId(){
-        this.bookId = Integer.toString((int)(Math.random()*10000));
-        return bookId;
-    }
+
 
     public Date getBookRentedDate() {
         return bookRentedDate;
