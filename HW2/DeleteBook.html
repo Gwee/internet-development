@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="MenuStyle.css">
+<style>
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=button]{
+	cursor:pointer;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+</style>
+
+<body style="background-image: url('BooksImage.jpg');
+			height:100%;  
+			background-repeat:no-repeat;
+			background-size:cover;">
+
+<div class="navbar">
+  <div class="dropdown">
+	<button class="dropbtn"> Manage Students
+    </button>
+    <div class="dropdown-content">
+      <a href="NewStudent.html">Add new student</a>
+      <a href="DeleteStudents.html">Delete all students from library</a>
+    </div>
+	</div> 
+	
+	
+    <div class="dropdown">
+	<button class="dropbtn"> Manage Books
+    </button>
+    <div class="dropdown-content">
+      <a href="NewBook.html">Add new book</a>
+      <a href="BorrowBook.html">Borrow book</a>
+      <a href="BorrowedBooks.html">Print all borrowed books</a>
+	  <a href="AllBooks.html">Print all books</a>
+	  <a href="DeleteBook.html">Delete book</a>
+    </div>
+	</div> 
+</div>
+
+
+<div style="padding:20px;">
+    <label for="btitle">Enter book title to delete
+    <input type="text" id="btitle" placeholder="Book title to delete.."></label>
+	
+    <input type="button" value="Delete book">
+	
+	<hr/>
+	
+	
+	<label for="data">To delete all books check box and click delete button:
+		<div id="data">
+			<input type="checkbox" value="to delete all books check box and click delete button">
+			<input type="button" value="Delete all" style="background-color:#a94442;">
+		</div>
+	</label>
+	
+
+	
+
+	
+	
+</div>
+	<div class="navbar" style="bottom:0; position:fixed!important; width:100%">
+	  <a href="MainPage.html" class="active">Home</a>
+	  <a href="#">News</a>
+	  <a href="#">Contact us</a>
+	</div>
+</body>
+</html>
