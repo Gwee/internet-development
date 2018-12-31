@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+          <style>
+            label 
+            {
+                display: block;
+                font: .9rem 'Fira Sans', sans-serif;
+            }
+
+            input[type='submit'], label 
+            {
+                margin-top: 1rem;
+            }
+        </style>
+       <form action="/HW3/srvAddBook" >
+                <div>
+                    <label for="isbn">Enter isbn</label>
+                    <input type="text" id="txtisbn" name="isbn">
+                </div>
+                <div>
+                    <label for="txtBookTitle">Book Title</label>
+                    <input type="text" id="txtBookTitle" name="bookTitle">
+                </div>
+                 <div>
+                    <label for="txtAuthor">Author</label>
+                    <input type="text" id="txtAuthor" name="author">
+                </div>
+                <div>
+                    <label for="txtDate">Publishing Date</label>
+                    <input type="Date" id="txtDate" name="date">
+                </div>
+           <div>
+                    <label for="numCopies">Copies of book</label>
+                    <input type="number" id="numCopies" name="copies">
+                </div>
+           
+          
+                <input type="submit" value="Add">
+            </form>
+    </body>
+</html>

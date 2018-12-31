@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1057d43e-20f4-456e-b456-5a3e8839dc5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/HW1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/HW1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/out/production/HW1/com/hw1/Book$Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/out/production/HW1/com/hw1/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/out/production/HW1/com/hw1/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/out/production/HW1/com/hw1/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/out/production/HW1/com/hw1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/out/production/HW1/com/hw1/Rental.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/out/production/HW1/com/hw1/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/src/com/hw1/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/src/com/hw1/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/src/com/hw1/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/src/com/hw1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/src/com/hw1/Rental.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1/src/com/hw1/Student.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1057d43e-20f4-456e-b456-5a3e8839dc5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,7 +15,7 @@
     <session id="-16491475">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="4" />
@@ -78,7 +56,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
+            <state relative-caret-position="604">
               <caret line="36" column="124" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="124" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -119,7 +97,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -179,18 +157,18 @@
       <workItem from="1543514403392" duration="4649000" />
       <workItem from="1543930480705" duration="590000" />
       <workItem from="1544082973599" duration="695000" />
-      <workItem from="1544388136177" duration="551000" />
+      <workItem from="1544388136177" duration="654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6485000" />
+    <option name="totallyTimeSpent" value="6588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="965" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18855932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10729355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,7 +272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
+        <state relative-caret-position="604">
           <caret line="36" column="124" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="124" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
