@@ -1,0 +1,174 @@
+﻿body {
+    background-image: url(https://i0.wp.com/www.ecifm.com/wp-content/uploads/2016/06/BWHP-background.jpg);
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    overflow: auto;
+}
+
+
+input[type=text], select ,  input[type=number],  input[type=email]{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+
+.login__submit {
+    position: relative;
+    width: 50%;
+    height: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient(to bottom, #7b1717 0%, rgba(69, 69, 69, 0.85) 100%);
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+    transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+    margin-left: 70px;
+    border: none;
+}
+
+
+article {
+    float: left;
+    padding: 5px;
+}
+
+header {
+    padding: 0px;
+}
+
+
+.fillBook {
+    /*border: solid;*/
+    padding: 5px;
+    background:linear-gradient(to bottom, #d9d5d5 0%, rgba(99, 95, 95, 0.6) 100%);
+    font-weight: bold; 
+}
+
+
+
+.img {
+    background-image: url(../Images/artsfon.com-68989.jpg);
+    height: 165px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.img2 {
+    margin-right: 50px;
+    height: 100px;
+    width: 100px;
+    position: center;
+}
+
+
+aside {
+    float: right;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+#footernewbook {
+    margin-top: 340px;
+}
+
+
+#footernewstudent {
+    margin-top: 250px;
+}
+
+
+#footerreturnbook {
+    margin-top: 200px;
+}
+
+
+footer {
+    margin-top: 300px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+nav {
+    padding-top: 5px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:linear-gradient(to bottom, #7b1717 0%, rgba(69, 69, 69, 0.85) 100%);}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    background-color: #312f2f ;
+}
+
+
+
+
+#formHome {
+    float: left;
+    margin-right: 10px;
+}
+
+#okHome {
+    margin-bottom: 20px;
+}
+
+
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+
+}
