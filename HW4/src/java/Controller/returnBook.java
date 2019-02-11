@@ -30,7 +30,7 @@ import static jdk.nashorn.internal.objects.NativeString.substring;
 
 /**
  *
- * @author amitmarko
+ * @author Guy Moyal
  */
 @WebServlet(name = "returnBook", urlPatterns = {"/returnBook"})
 public class returnBook extends HttpServlet {

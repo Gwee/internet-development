@@ -7,7 +7,7 @@ package Model;
 
 /**
  *
- * @author amitmarko
+ * @author Guy Moyal
  */
 public class Category {
     

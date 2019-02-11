@@ -7,7 +7,7 @@ package Model;
 
 /**
  *
- * @author amitmarko
+ * @author Guy Moyal
  */
 import java.io.Serializable;
 

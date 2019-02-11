@@ -22,7 +22,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author amitmarko
+ * @author Guy Moyal
  */
 public class DB {
 

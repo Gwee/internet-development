@@ -1,7 +1,7 @@
 <%-- 
     Document   : newStudent
     Created on : 30-Jan-2018, 13:07:50
-    Author     : amitmarko
+    Author     : Guy Moyal
 --%>
 
 <html>

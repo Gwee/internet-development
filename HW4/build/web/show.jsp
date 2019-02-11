@@ -28,19 +28,19 @@
 
         <article>
             <div class="fillBook">
-                <h1 style=" font-style:italic">Hi ! here you can see all the information on our library <br> Press the button you like:</h1>
+                <h1 style=" font-style:italic">Please select one of the following</h1>
                 <form  action="show?books="  method="post" >
-                    <input type="submit" class="login__submit"  value="Books" style="position:center; width: 120px; font-size: 17px; margin-left: 200px;" />
+                    <input type="submit" class="login__submit"  value="Books" style="position: relative; width: 120px; font-size: 17px;" />
                 </form>
 
 
                 <form  action="show?students="  method="post">
-                    <input type="submit" class="login__submit"  value="Students" style="position:center; width: 120px; font-size: 17px;  margin-left: 200px;" />
+                    <input type="submit" class="login__submit"  value="Students" style="position:relative; width: 120px; font-size: 17px; " />
                 </form>
 
 
                 <form  action="show?loans="  method="post">
-                    <input type="submit"  class="login__submit" value="Borrows" style="position:center; width: 120px; font-size: 17px;  margin-left: 200px;"  />
+                    <input type="submit"  class="login__submit" value="Borrows" style="position:relative; width: 120px; font-size: 17px;  "  />
                 </form>
             </div>
         </article>

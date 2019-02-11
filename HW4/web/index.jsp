@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Login/Logout animation concept</title>
+        <title>Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
 
@@ -21,11 +21,11 @@
                     <div class="login__form">
                         <form action="LogIn" method="post">
                             <%    if (request.getParameter("usernotexist") != null) {  %>
-                            <h1 style="width: 200px; color: white">Sorry the user not exist , try again!</h1>
+                            <h1 style="width: 200px; color: white">Sorry the user does not exist, please try again!</h1>
                             <%  }%>    
                             
                              <%    if (request.getParameter("worngpassword") != null) {  %>
-                            <h1 style="width: 200px; color: white">You enter a wrong password!</h1>
+                            <h1 style="width: 200px; color: white">Incorrect password</h1>
                             <%  }%>   
                             
                            

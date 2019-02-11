@@ -37,7 +37,7 @@
             String name = bean.getStudent().getFname();
             if (name.equals("guest")) {   %>
 
-        <h1>Sorry you dont have a premission!</h1>
+        <h1>Sorry, not enough permissions</h1>
 
         <%      } else { %>  
 

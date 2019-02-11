@@ -1,7 +1,7 @@
 <%-- 
     Document   : newStudent
     Created on : 30-Jan-2018, 13:07:50
-    Author     : amitmarko
+    Author     : Guy Moyal
 --%>
 
 <html>
@@ -44,7 +44,7 @@
             String name = bean.getStudent().getFname();
             if (name.equals("guest") || !bean.getStudent().isPremission()) {   %>
 
-        <h1>Sorry you dont have a premission!</h1>
+        <h1>Sorry, not enough permissions</h1>
 
         <%      } else { %>  
 

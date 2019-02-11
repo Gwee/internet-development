@@ -2,7 +2,7 @@
     background-image: url(https://i0.wp.com/www.ecifm.com/wp-content/uploads/2016/06/BWHP-background.jpg);
     position: relative;
     height: 100%;
-    background-size: cover;
+    background-size: auto;
     overflow: auto;
 }
 
@@ -24,7 +24,7 @@ input[type=text], select ,  input[type=number],  input[type=email]{
     width: 50%;
     height: 2rem;
     color: rgba(255, 255, 255, 0.8);
-    background: linear-gradient(to bottom, #7b1717 0%, rgba(69, 69, 69, 0.85) 100%);
+    background: linear-gradient(to bottom, #c3cc44 0%, rgba(255, 255, 69, 0.85) 100%);
     font-size: 1.5rem;
     border-radius: 3rem;
     cursor: pointer;
@@ -118,7 +118,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background:linear-gradient(to bottom, #7b1717 0%, rgba(69, 69, 69, 0.85) 100%);}
+    background:linear-gradient(to bottom, #7baa17 0%, rgba(69, 69, 69, 0.85) 100%);}
 
 li {
     float: left;

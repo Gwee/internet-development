@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author amitmarko
+ * @author Guy Moyal
  */
 public class BeanClass {
     

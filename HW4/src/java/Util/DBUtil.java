@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author amitmarko
+ * @author Guy Moyal
  */
 public class DBUtil {
     

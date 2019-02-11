@@ -45,17 +45,17 @@
         %>
         
         <article >
-            <h1 style=" font-style:italic">Hi  <%= name%> and welcome to Digital Library!</h1>
+            <h1>Hi  <%= name%> and welcome to the Virtual Library!</h1>
             <p style=" font-style:italic ;  font-weight: bold ; ">
-                This library has a variety of books available to you,<br />
-                We are happy to be at your service.<br />
-                Thank you. 
+                The virtual library has many books to offer<br />
+                Please feel free to reach out to us below with any questions<br />
+               
             </p>
             <form id="formHome" method="post">
                 <b>Contact Us:</b><br />
-                <textarea cols="15" rows="6" name="for" required></textarea>
+                <textarea cols="55" rows="6" name="for" required></textarea>
                 <br />
-                <input type="submit" name="add" value="Send"  class="login__submit"  style="margin-left: 27px; font-size: 1.0rem;" />
+                <input type="submit" name="add" value="Send"  class="login__submit"  style="margin-left: 95px; font-size: 1.0rem;" />
             </form>
         </article>
 
@@ -66,7 +66,7 @@
 
         <footer>
             <hr />
-            Copyright (C) 2018. All rights reserved.
+            Copyright (C) 2019. All rights reserved.
         </footer>
     </body>
 </html>
